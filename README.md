@@ -14,7 +14,7 @@ The paper investigates phishing detection on Ethereum by comparing **explicit tr
 
 The paper reports **3,359,325 transactions**: **671,865 labeled phishing** and **2,687,460 labeled benign**, with **7,915 known phishing addresses** in the source collection. These are *reported paper figures*, not counts independently verified from the released archive.
 
-**Dataset on Zenodo:** [ADD DATASET DOI LINK AFTER PUBLICATION](https://zenodo.org/)
+**Dataset on Zenodo:** [https://zenodo.org/records/24118182](https://zenodo.org/records/24118182)
 
 **Download:** Obtain the full compressed CSV from the Zenodo record. The large dataset is deliberately not tracked in Git.
 
