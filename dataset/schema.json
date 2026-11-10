@@ -1,0 +1,130 @@
+{
+  "title": "Fishing for Phishers transaction CSV schema",
+  "description": "24-column CSV header supplied by dataset owner; types are intentionally strings for lossless parsing; exact completeness not audited.",
+  "columns": [
+    {
+      "name": "blockNumber",
+      "storage_type": "string",
+      "description": "Ethereum block number"
+    },
+    {
+      "name": "timeStamp",
+      "storage_type": "string",
+      "description": "Unix timestamp (seconds)"
+    },
+    {
+      "name": "hash",
+      "storage_type": "string",
+      "description": "Transaction hash"
+    },
+    {
+      "name": "nonce",
+      "storage_type": "string",
+      "description": "Sender transaction nonce"
+    },
+    {
+      "name": "blockHash",
+      "storage_type": "string",
+      "description": "Block hash"
+    },
+    {
+      "name": "transactionIndex",
+      "storage_type": "string",
+      "description": "Transaction index within block"
+    },
+    {
+      "name": "from",
+      "storage_type": "string",
+      "description": "Sender Ethereum address"
+    },
+    {
+      "name": "to",
+      "storage_type": "string",
+      "description": "Recipient Ethereum address (may be empty)"
+    },
+    {
+      "name": "value",
+      "storage_type": "string",
+      "description": "Transferred value in wei; preserve as decimal string"
+    },
+    {
+      "name": "gas",
+      "storage_type": "string",
+      "description": "Gas limit supplied"
+    },
+    {
+      "name": "gasPrice",
+      "storage_type": "string",
+      "description": "Gas price in wei; preserve exact decimal value"
+    },
+    {
+      "name": "isError",
+      "storage_type": "string",
+      "description": "Error indicator as returned by source"
+    },
+    {
+      "name": "txreceipt_status",
+      "storage_type": "string",
+      "description": "Transaction receipt status, possibly empty"
+    },
+    {
+      "name": "input",
+      "storage_type": "string",
+      "description": "Transaction input data"
+    },
+    {
+      "name": "contractAddress",
+      "storage_type": "string",
+      "description": "Contract address, possibly empty"
+    },
+    {
+      "name": "cumulativeGasUsed",
+      "storage_type": "string",
+      "description": "Cumulative gas used in block"
+    },
+    {
+      "name": "gasUsed",
+      "storage_type": "string",
+      "description": "Gas actually used"
+    },
+    {
+      "name": "confirmations",
+      "storage_type": "string",
+      "description": "Confirmations at collection time"
+    },
+    {
+      "name": "methodId",
+      "storage_type": "string",
+      "description": "Method identifier, possibly empty"
+    },
+    {
+      "name": "functionName",
+      "storage_type": "string",
+      "description": "Decoded function name, possibly empty"
+    },
+    {
+      "name": "type",
+      "storage_type": "string",
+      "description": "Transaction type, possibly empty"
+    },
+    {
+      "name": "traceId",
+      "storage_type": "string",
+      "description": "Trace identifier, possibly empty"
+    },
+    {
+      "name": "errCode",
+      "storage_type": "string",
+      "description": "Error code, possibly empty"
+    },
+    {
+      "name": "label",
+      "storage_type": "string",
+      "description": "Binary phishing label: 1 phishing; 0 benign"
+    }
+  ],
+  "label_values": {
+    "0": "benign",
+    "1": "phishing"
+  }
+}

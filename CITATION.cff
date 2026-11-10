@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the associated ACM article. Cite the Zenodo dataset DOI separately when using the data."
+title: "Fishing for Phishers: Learning-Based Phishing Detection in Ethereum Transactions"
+type: article
+authors:
+  - family-names: Alghuried
+    given-names: Ahod
+  - family-names: Alghamdi
+    given-names: Abdulaziz
+  - family-names: Alkinoon
+    given-names: Ali
+  - family-names: Choi
+    given-names: Soohyeon
+  - family-names: Alquonus
+    given-names: Khalid
+  - family-names: Mohaisen
+    given-names: Manar
+  - family-names: Mohaisen
+    given-names: David
+doi: 10.1145/3786202
+url: https://doi.org/10.1145/3786202
+date-released: 2026-09-26
